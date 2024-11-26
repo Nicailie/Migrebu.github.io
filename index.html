@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MIGREBU Charitable Ministry</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css">
+</head>
+<body>
+  <header class="bg-blue-500 text-white py-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <div class="text-2xl font-bold">MIGREBU</div>
+      <nav>
+        <ul class="flex space-x-4">
+          <li><a href="#about" class="hover:text-gray-200">About</a></li>
+          <li><a href="#programs" class="hover:text-gray-200">Programs</a></li>
+          <li><a href="#get-involved" class="hover:text-gray-200">Get Involved</a></li>
+          <li><a href="#contact" class="hover:text-gray-200">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="bg-gray-100 py-20">
+      <div class="container mx-auto flex items-center justify-between">
+        <div class="w-1/2">
+          <h1 class="text-4xl font-bold mb-4">Transforming Lives Through Charitable Outreach</h1>
+          <p class="text-lg mb-8">MIGREBU is a charitable ministry dedicated to making a positive impact in our community. Join us in our mission to support those in need.</p>
+          <a href="#get-involved" class="bg-blue-500 text-white py-3 px-6 rounded-md hover:bg-blue-600">Get Involved</a>
+        </div>
+        <div class="w-1/2">
+          <img src="/api/placeholder/600/400" alt="Charitable Outreach" class="rounded-md shadow-lg">
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="py-12">
+      <div class="container mx-auto">
+        <h2 class="text-3xl font-bold mb-4">About MIGREBU</h2>
+        <p class="text-lg mb-8">MIGREBU is a charitable ministry that has been serving our community for over 10 years. Our mission is to provide support, resources, and opportunities to those in need, empowering them to improve their lives and create a brighter future.</p>
+        <div class="grid grid-cols-3 gap-8">
+          <div>
+            <h3 class="text-xl font-bold mb-2">Our Vision</h3>
+            <p>To create a more compassionate and equitable society where everyone has the chance to thrive.</p>
+          </div>
+          <div>
+            <h3 class="text-xl font-bold mb-2">Our Values</h3>
+            <p>Integrity, Compassion, Empowerment, Collaboration, and Sustainability.</p>
+          </div>
+          <div>
+            <h3 class="text-xl font-bold mb-2">Our Impact</h3>
+            <p>Over the past decade, we've helped thousands of individuals and families in our community.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="programs" class="bg-gray-100 py-12">
+      <div class="container mx-auto">
+        <h2 class="text-3xl font-bold mb-4">Our Programs</h2>
+        <p class="text-lg mb-8">MIGREBU offers a range of programs and initiatives to support our community. Here are some of our key focus areas:</p>
+        <div class="grid grid-cols-3 gap-8">
+          <div>
+            <h3 class="text-xl font-bold mb-2">Food Assistance</h3>
+            <p>Providing nutritious meals and food
+</p>
+          </div>
+          <div>
+            <h3 class="text-xl font-bold mb-2">Job Training</h3>
+            <p>Empowering individuals with job skills and employment opportunities</p>
+          </div>
+          <div>
+            <h3 class="text-xl font-bold mb-2">Youth Development</h3>
+            <p>Supporting educational and extracurricular activities for local youth</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="get-involved" class="py-12">
+      <div class="container mx-auto">
+        <h2 class="text-3xl font-bold mb-4">Get Involved</h2>
+        <p class="text-lg mb-8">There are many ways you can support our charitable efforts and make a difference in our community.</p>
+        <div class="grid grid-cols-3 gap-8">
+          <div>
+            <h3 class="text-xl font-bold mb-2">Volunteer</h3>
+            <p>Join our team of dedicated volunteers and contribute your time and skills.</p>
+            <a href="#" class="text-blue-500 hover:text-blue-600">Learn More</a>
+          </div>
+          <div>
+            <h3 class="text-xl font-bold mb-2">Donate</h3>
+            <p>Financial contributions help us continue our important work and expand our reach.</p>
+            <a href="#" class="text-blue-500 hover:text-blue-600">Donate Now</a>
+          </div>
+          <div>
+            <h3 class="text-xl font-bold mb-2">Partner</h3>
+            <p>Collaborate with us as a corporate or community partner to amplify our impact.</p>
+            <a href="#" class="text-blue-500 hover:text-blue-600">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="bg-gray-100 py-12">
+      <div class="container mx-auto">
+        <h2 class="text-3xl font-bold mb-4">Contact Us</h2>
+        <p class="text-lg mb-8">Get in touch with our team to learn more about our work or find out how you can get involved.</p>
+        <form class="max-w-md mx-auto">
+          <div class="mb-4">
+            <label for="name" class="block font-medium mb-2">Name</label>
+            <input type="text" id="name" name="name" class="w-full border border-gray-300 rounded-md py-2 px-3" required>
+          </div>
+          <div class="mb-4">
+            <label for="email" class="block font-medium mb-2">Email</label>
+            <input type="email" id="email" name="email" class="w-full border border-gray-300 rounded-md py-2 px-3" required>
+          </div>
+          <div class="mb-4">
+            <label for="message" class="block font-medium mb-2">Message</label>
+            <textarea id="message" name="message" rows="4" class="w-full border border-gray-300 rounded-md py-2 px-3" required></textarea>
+          </div>
+          <button type="submit" class="bg-blue-500 text-white py-3 px-6 rounded-md hover:bg-blue-600">Submit</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-blue-500 text-white py-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <p>&copy; 2023 MIGREBU. All rights reserved.</p>
+      <nav>
+        <ul class="flex space-x-4">
+          <li><a href="#" class="hover:text-gray-200">Privacy Policy</a></li>
+          <li><a href="#" class="hover:text-gray-200">Terms of Service</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
